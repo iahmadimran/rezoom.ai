@@ -1,9 +1,8 @@
 import { usePuterStore } from "~/lib/puter";
-import type { Route } from "../+types/root";
 import { useLocation, useNavigate } from "react-router";
 import { useEffect } from "react";
 
-export function meta({ }: Route.MetaArgs) {
+export function meta() {
   return [
     { title: "Rezoom AI | Authentication" },
     { name: "description", content: "Log In to your account." },

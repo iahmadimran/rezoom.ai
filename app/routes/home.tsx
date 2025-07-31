@@ -3,12 +3,12 @@ import type { Route } from "./+types/home";
 import { resumes } from "constants/index";
 import ResumeCard from "~/components/ResumeCard";
 import { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 import { usePuterStore } from "~/lib/puter";
 
 export function meta({ }: Route.MetaArgs) {
   return [
-    { title: "Rezoom AI" },
+    { title: "Rezoom.AI" },
     { name: "description", content: "An AI-Powered resume enhancer." },
   ];
 }
